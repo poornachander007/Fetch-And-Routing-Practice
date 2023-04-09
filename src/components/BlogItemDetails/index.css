@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.blog_details_container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  align-self: center;
+  color: rgb(4, 4, 34);
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.avatar_and_author_container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.author {
+  color: rgb(34, 31, 31);
+  font-size: 20px;
+}
+
+.image {
+  border-radius: 10px;
+  width: 100%;
+  /* width: 40vw; */
+}
+
+.content {
+  color: rgb(28, 28, 43);
+}

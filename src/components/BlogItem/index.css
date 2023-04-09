@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.li_link_tag {
+  border: none;
+}
+
+.li_container {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+}
+
+.imageItem {
+  border-radius: 10px;
+  width: 40vw;
+  /* width: 600px; */
+}
+
+.details_container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topicItem {
+  color: rgb(77, 76, 76);
+  font-size: 16px;
+}
+
+.titleItem {
+  color: rgb(3, 3, 17);
+  font-size: 22px;
+}
+
+.avatar_url_author_container {
+  display: flex;
+  align-items: center;
+}
+
+.avatarItem {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.authorItem {
+  color: rgb(77, 76, 76);
+  font-size: 16px;
+}
